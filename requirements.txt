@@ -1,7 +1,10 @@
-tensorflow
-tensorflow-datasets
 numpy
 pandas
+opencv-python
 scikit-learn
+tensorflow
 matplotlib
+seaborn
 joblib
+kagglehub
+Pillow
