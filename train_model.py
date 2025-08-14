@@ -13,7 +13,8 @@ metadata = pd.read_csv(METADATA_CSV)
 num_samples = 1000  # adjust as needed
 
 # --- Feature extraction (for demo, take only first N samples) ---
-train_features = np.load("train_features.npy")  # Optional: save CNN features if large
+train_features, train_labels = extract_features(train_data)
+ # Optional: save CNN features if large
 
 # Metadata preprocessing
 X_meta_df = metadata.iloc[:num_samples].drop(columns=['calories'])
