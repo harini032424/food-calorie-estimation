@@ -31,6 +31,8 @@ It demonstrates the integration of computer vision and machine learning for prac
    git clone https://github.com/harini032424/food-calorie-estimation.git
 2. Navigate to the project folder:food-calorie-estimation
 3. Install dependencies
+
+   
 4.Train the Model:python food_calorie_estimation.py
   This will train the Random Forest model and save it as calorie_predictor_rf.pkl.
 
