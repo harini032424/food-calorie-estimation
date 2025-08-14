@@ -6,5 +6,4 @@ tensorflow
 matplotlib
 seaborn
 joblib
-kagglehub
-Pillow
+datasets
