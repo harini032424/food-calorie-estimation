@@ -1,0 +1,15 @@
+# Ignore trained model
+calorie_predictor_rf.pkl
+
+# Ignore dataset folder (Food-101 downloads automatically via tensorflow_datasets)
+data/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment (if any)
+venv/
+.env
